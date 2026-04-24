@@ -1,0 +1,22 @@
+datasets:
+  csqa_default_split:
+    type: "csqa_custom_split"
+    hf_path: "tau/commonsense_qa"
+    train_ratio: 0.7
+    seed: 42
+    out_dir_base: "data/processed_datasets" # Centralized base for all processed datasets
+    # Description: CSQA with official 'train' split into 70% train / 30% dev for LoRA,
+    # and official 'validation' as test.
+
+  gsm8k_default_split:
+    type: "gsm8k_mc_custom_split"
+    hf_path: "guipenedo/gsm8k-mc"
+    aux_hf_paths:
+      gold_reasoning_dataset: "openai/gsm8k"
+    train_ratio: 0.7
+    seed: 42
+    out_dir_base: "data/processed_datasets"
+    # Description: GSM8K-MC with official 'train' split into 70% train / 30% dev for LoRA,
+    # official 'test' as test. Includes openai/gsm8k for potential gold reasoning.
+
+

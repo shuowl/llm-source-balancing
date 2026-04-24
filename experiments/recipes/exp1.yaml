@@ -1,0 +1,5 @@
+datasets:       [csqa]
+model_tokens:   [llama3_8b]
+prior_tokens:   [d1nu1n]      # doc tier1 neutral, user tier1 neutral (doc first)
+instructions:   [n]           # neutral instruction
+cot_flags:      [nocot]

@@ -1,0 +1,3 @@
+experiments:
+- name: csqa__qwen3_8b__d1nu1nin__nocot
+- name: csqa__qwen3_8b__u1nd1nin__nocot

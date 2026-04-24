@@ -1,0 +1,20 @@
+adapters/
+output/
+__pycache__
+# This ignores only the top-level results/ folder in that repo (not any other results elsewhere).
+/results/ 
+/results_0727/   
+/results_0727_2/
+/results_0810_for_sft/
+/results_0811_system_instructions/
+/results_0812/
+/data/tier_sentences_0727/
+results_old/
+aggregated_metrics.json
+
+
+
+# 0724
+/data/tier_sentences/*
+
+

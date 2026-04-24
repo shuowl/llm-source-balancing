@@ -1,0 +1,30 @@
+experiments:
+- name: csqa__qwen3_1_7b__d1nu1nin__nocot
+- name: csqa__qwen3_1_7b__d2nu2nin__nocot
+- name: csqa__qwen3_1_7b__u1nd1nin__nocot
+- name: csqa__qwen3_1_7b__u2nd2nin__nocot
+- name: csqa__qwen3_8b__d1nu1nin__nocot
+- name: csqa__qwen3_8b__d2nu2nin__nocot
+- name: csqa__qwen3_8b__u1nd1nin__nocot
+- name: csqa__qwen3_8b__u2nd2nin__nocot
+- name: csqa__llama3_8b_instruct__d1nu1nin__nocot
+- name: csqa__llama3_8b_instruct__d2nu2nin__nocot
+- name: csqa__llama3_8b_instruct__u1nd1nin__nocot
+- name: csqa__llama3_8b_instruct__u2nd2nin__nocot
+- name: gsm8k__qwen3_1_7b__d1nu1nin__nocot
+- name: gsm8k__qwen3_1_7b__d2nu2nin__nocot
+- name: gsm8k__qwen3_1_7b__u1nd1nin__nocot
+- name: gsm8k__qwen3_1_7b__u2nd2nin__nocot
+- name: gsm8k__qwen3_8b__d1nu1nin__nocot
+- name: gsm8k__qwen3_8b__d2nu2nin__nocot
+- name: gsm8k__qwen3_8b__u1nd1nin__nocot
+- name: gsm8k__qwen3_8b__u2nd2nin__nocot
+- name: gsm8k__llama3_8b_instruct__d1nu1nin__nocot
+- name: gsm8k__llama3_8b_instruct__d2nu2nin__nocot
+- name: gsm8k__llama3_8b_instruct__u1nd1nin__nocot
+- name: gsm8k__llama3_8b_instruct__u2nd2nin__nocot
+
+
+
+
+

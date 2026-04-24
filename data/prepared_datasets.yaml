@@ -1,0 +1,9 @@
+csqa_default_split:
+  dev_file: data/processed_datasets/csqa_default_split/dev.jsonl
+  test_file: data/processed_datasets/csqa_default_split/test.jsonl
+  train_file: data/processed_datasets/csqa_default_split/train.jsonl
+gsm8k_default_split:
+  dev_file: data/processed_datasets/gsm8k_default_split/dev.jsonl
+  gold_reasoning_file: data/processed_datasets/gsm8k_default_split/gold_reasoning.jsonl
+  test_file: data/processed_datasets/gsm8k_default_split/test.jsonl
+  train_file: data/processed_datasets/gsm8k_default_split/train.jsonl
