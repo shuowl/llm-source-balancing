@@ -3,9 +3,12 @@
 ## News
 
 - **[2026-04]** Paper accepted to **ACL 2026 Findings**.
-- **Code**: https://github.com/shuowl/llm-source-balancing
-- **Models** (SFT LoRA adapters): https://huggingface.co/codecodebear/llm_source_balancing_sft_lora
-- **Paper**: coming soon
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2604.22193"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white" alt="Paper"></a>
+  <a href="https://github.com/shuowl/llm-source-balancing"><img src="https://img.shields.io/badge/GitHub-Code-181717?logo=github&logoColor=white" alt="Code"></a>
+  <a href="https://huggingface.co/codecodebear/llm_source_balancing_sft_lora"><img src="https://img.shields.io/badge/🤗_Hugging_Face-Models-FFD21E" alt="Models"></a>
+</p>
 
 ## Paper Overview
 
@@ -202,8 +205,7 @@ models to selectively accept external information. The generated
 which we run using
 [LlamaFactory](https://github.com/hiyouga/LLaMA-Factory).
 
-The trained LoRA adapters are released on Hugging Face:
-https://huggingface.co/codecodebear/llm_source_balancing_sft_lora
+The trained LoRA adapters are released on Hugging Face: <a href="https://huggingface.co/codecodebear/llm_source_balancing_sft_lora"><img src="https://img.shields.io/badge/🤗_Hugging_Face-Models-FFD21E" alt="Models"></a>
 
 ### General-capability evaluation of fine-tuned models — `lm_harness_eval/`
 
